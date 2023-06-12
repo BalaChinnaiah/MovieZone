@@ -1,0 +1,96 @@
+*
+{
+    text-decoration: none;
+
+}
+
+body
+{
+    background-color: black;
+}
+
+.navbar
+{
+    background-color: #E50914;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+
+.navdiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li :hover
+{
+    background-color: black;
+    width: 90px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+li a 
+{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+button
+{
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 90px;
+    
+}
+button:hover , button a :hover
+{
+    background-color: #E50914;
+    width: 90px;
+}
+
+button a 
+{
+    color: white;
+    font-weight: bold;
+    font-size: 15px ;
+}
+
+.section
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    
+
+}
+
+img{
+    height: 1fr;
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border:2px solid white;
+    
+}
+
+
